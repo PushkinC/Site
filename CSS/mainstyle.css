@@ -1,0 +1,91 @@
+@font-face {
+	font-family: "Angelica";
+	src: url("../Fonts/Pompadur.ttf");
+}
+
+@font-face {
+	font-family: "Country Western";
+	src: url("../Fonts/Country Western.ttf");
+}
+
+body{
+   background-image: url("../Picture/main/background.jpg");
+   background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: #cf2929;
+    font-family: "Angelica";
+    font-size: 8vw;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.cardsheet{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.card1, .card2, .card3{
+    background-size: cover;
+    border: 4px solid grey;
+    border-radius: 60px;
+    background-image: url("../Picture/main/background.jpg");
+    text-align: center;
+    font-family: 'Country Western';
+    font-size: 7vw;
+    color: #348a3d;
+    font-weight: 500;
+    padding-top:20%;
+    padding-bottom:20%;
+    text-decoration: none;
+}
+
+.card1{
+    background-image: url("../Picture/main/flowers.jpg");
+}
+
+.card2{
+    background-image: url("../Picture/main/clothes.jpg");
+}
+
+.card3{
+    background-image: url("../Picture/main/balloons.jpg");
+}
+
+.card1:hover{
+    border: 4px solid #000000 !important;
+    background-image: url("../Picture/main/flowers_с.jpg");
+    color: #4acf58 !important;
+    text-decoration: underline;
+}
+
+.card2:hover{
+    border: 4px solid #000000 !important;
+    background-image: url("../Picture/main/clothes_c.jpg");
+    color: #4acf58 !important;
+    text-decoration: underline;
+}
+
+.card3:hover{
+    border: 4px solid #000000 !important;
+    background-image: url("../Picture/main/balloons_с.jpg");
+    color: #4acf58 !important;
+    text-decoration: underline;
+}
+
+
+.adres{
+    color: #cf2929;
+    font-size: 3vw;
+    text-align: center;
+}
+span{
+    color: #3eab48;
+}

@@ -1,0 +1,32 @@
+body{
+    background-image: url("../Picture/main/flowers.jpg");
+}
+
+.card1 ,.card2, .card3{
+    font-size: 4.5vw;
+    padding-top: 23%;
+}
+
+.card1{
+    background-image: url("../Picture/flowers/flowers.jpg");
+}
+
+.card2{
+    background-image: url("../Picture/flowers/plastic.jpg");
+}
+
+.card3{
+    background-image: url("../Picture/flowers/fashion.jpg");
+}
+
+.card1:hover{
+    background-image: url("../Picture/flowers/flowers_c.jpeg");
+}
+
+.card2:hover{
+    background-image: url("../Picture/flowers/plastic_c.jpg");
+}
+
+.card3:hover{
+    background-image: url("../Picture/flowers/fashion_c.jpg");
+}

@@ -1,0 +1,64 @@
+body{
+   background-image: url("../Picture/main/background.jpg");
+   background-size: cover;
+}
+
+img{
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+    /*margin-top: 40px;
+    margin-bottom: 40%;*/
+    border: 1px solid FloralWhite;
+    border-radius: 10%;
+    border: 2px dotted orangered;
+}
+
+.sheet{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 340px;
+    gap: 5%;
+    margin-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 2px dotted orangered;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 332px 2fr;*/
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+    'pic name'
+    'pic description'
+    'pic buy'
+    ;
+    border: 4px solid grey;
+    border-radius: 40PX;
+    background: FloralWhite;
+    /*height: 160%;*/
+}
+
+.name{
+    grid-area: name;
+    border: 2px dotted orangered;
+    font-size: 50px;
+}
+
+.pic{
+    grid-area: pic;
+    border: 2px dotted orangered;
+}
+
+.description{
+    grid-area: description;
+    border: 2px dotted orangered;
+}
+
+.buy{
+    grid-area: buy;
+    border: 2px dotted orangered;
+}
+

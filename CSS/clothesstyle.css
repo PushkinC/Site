@@ -1,0 +1,29 @@
+body{
+    background-image: url("../Picture/main/clothes.jpg");
+}
+
+.card1{
+    background-image: url("../Picture/clothes/man.jpg");
+    background-size: 700px;
+}
+
+.card2{
+    background-image: url("../Picture/clothes/woman.jpg");
+    background-size: 800px;
+}
+
+.card3{
+    background-image: url("../Picture/clothes/kid.jpg");
+    background-size: 1000px 600px;
+/*
+.card1:hover{
+    background-image: url("../Picture/flowers/flowers_c.jpeg");
+}
+
+.card2:hover{
+    background-image: url("../Picture/flowers/plastic_c.jpg");
+}
+
+.card3:hover{
+    background-image: url("../Picture/flowers/fashion_c.jpg");
+}*/
