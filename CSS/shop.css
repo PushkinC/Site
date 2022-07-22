@@ -27,8 +27,7 @@ img{
 
 .card{
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-columns: 332px 2fr;*/
+    grid-template-columns: 332px 2fr;
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
     'pic name'
